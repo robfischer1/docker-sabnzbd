@@ -1,4 +1,4 @@
-FROM robfischer1/sabnzbd-base
+FROM robfischer1/docker-sabnzbd-base
 MAINTAINER "Rob" <robfischer1@gmail.com>
 VOLUME ["/config","/data"]
 EXPOSE 8080 9090
